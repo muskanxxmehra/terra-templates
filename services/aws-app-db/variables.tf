@@ -54,6 +54,7 @@ variable "public_subnet_cidr" {
 variable "key_name" {
   description = "Name of the SSH key pair for EC2 instances"
   type        = string
+  default     = "my-key-pair"
 }
 
 variable "ssh_allowed_cidr" {
