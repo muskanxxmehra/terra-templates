@@ -124,7 +124,7 @@ HTML_TEMPLATE = """
                 <td>{{ order[0] }}</td>
                 <td>{{ order[1] }}</td>
                 <td>{{ order[2] }}</td>
-                <td>${{ "%.2f"|format(order[3]) }}</td>
+                <td>$${{ "%.2f"|format(order[3]) }}</td>
                 <td>{{ order[4] }}</td>
             </tr>
             {% endfor %}
@@ -256,4 +256,3 @@ resource "aws_eip" "app" {
     Name = "${var.environment}-${var.app_name}-eip"
   })
 }
-
