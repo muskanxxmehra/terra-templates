@@ -27,13 +27,13 @@ ssh_allowed_cidr = ["0.0.0.0/0"]  # Restrict in production!
 
 # Application Server
 app_name          = "flask-app"
-app_instance_type = "t2.micro"
+app_instance_type = "t3.micro"
 app_volume_size   = 8
 app_port          = 5000
 create_app_eip    = false
 
 # Database Server
-db_instance_type = "t2.micro"
+db_instance_type = "t3.micro"
 db_volume_size   = 8
 db_name          = "appdb"
 db_user          = "appuser"
@@ -42,7 +42,7 @@ db_port          = 3306
 
 # Additional tags
 tags = {
-  Owner   = "your-name"
+  Owner   = "Muskan Mehra"
   Purpose = "webapp-demo"
 }
 
