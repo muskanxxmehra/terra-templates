@@ -16,7 +16,7 @@ project_name = "webapp-project"
 environment  = "dev"
 
 # REQUIRED: Your AWS SSH key pair name
-key_name = "your-key-name"
+key_name = "my-key-pair"
 
 # Network
 vpc_cidr           = "10.0.0.0/16"
