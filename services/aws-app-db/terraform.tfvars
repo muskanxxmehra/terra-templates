@@ -11,7 +11,7 @@
 ################################################################################
 
 # General
-aws_region   = "us-east-1"
+aws_region   = "ap-south-1"
 project_name = "webapp-project"
 environment  = "dev"
 
@@ -42,7 +42,7 @@ db_port          = 3306
 
 # Additional tags
 tags = {
-  Owner   = "Muskan Mehra"
+  Owner   = "Azalio Team"
   Purpose = "webapp-demo"
 }
 
